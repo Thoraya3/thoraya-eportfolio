@@ -1,21 +1,21 @@
 # Launch into Computing – Unit 1 Reflection
 
 ## What? (Description)
+In Unit 1, I was introduced to the foundations of computing and how modern computer systems have evolved. The content covered key topics such as the definition of computing, the role of different computing disciplines (AI, cybersecurity, software engineering, data science, enterprise IT), and the history of computer architectures from early machines to modern microprocessors. The seminar materials and lecture explained concepts like CPU structure (ALU, control unit, registers, cache), the difference between Harvard and Von Neumann architectures, Flynn’s taxonomy (SISD, SIMD, MISD, MIMD), and performance features such as pipelines, superscalar execution, caching and hyperthreading.
 
-Write here what Unit 1 was mainly about, in your own words. For example:
-- Key topics you remember
-- Activities you completed (readings, videos, quizzes, tasks)
-
+Alongside the theory, I worked through the required activities for the unit: I reviewed the unit reading, watched the seminar recording, completed the introductory Python exercises (covering print statements, variables, basic arithmetic, input and simple decision logic), and took part in the case study discussion on AI‑powered assistants. I also registered for GitHub and started setting up my MSc e‑portfolio, which will be used to document my learning across the programme.
 ## So what? (Interpretation)
+This unit helped me connect low‑level computing concepts with the high‑level systems I work with in my role as a Senior Application Programmer in the telecom sector. Even though my daily focus is usually on applications, automation workflows and business rules, revisiting CPU architecture, memory hierarchy and instruction‑level parallelism reminded me that performance and reliability in enterprise systems often depend on decisions made at the hardware and systems level. Understanding ideas like caching, pipelines and multi‑core execution gives me a better mental model when I think about scalability, latency and throughput in telecom platforms.
 
-Explain why this content is important:
-- How does it relate to computing or AI?
-- Did it connect to anything you already knew from your job?
-- What did you find interesting or confusing?
+The case study and discussion on AI‑powered assistants also made the connection between theory and practice very clear. In my work within the Automation CoE, I see how AI and automation reduce manual effort and improve efficiency, but this unit emphasised that these solutions sit at the intersection of several computing disciplines: AI for decision‑making, software engineering for integration, data science and data engineering for data quality, and cybersecurity for protecting sensitive telecom information. It also reinforced the importance of legal, ethical and professional responsibilities, especially around privacy, fairness and the impact of automation on jobs.
+
+Balancing a demanding role at Ooredoo with postgraduate study is challenging, but completing Unit 1 showed me that I can still build a solid understanding if I use the learning resources strategically (slides, recordings, exercises) and relate them back to my real work environment.
 
 ## What next? (Action)
 
-What will you do in future because of this unit?
-- Skills you want to improve
-- Topics you want to review
-- How you might apply this in your work as a Senior Application Programmer
+Going forward, I plan to take a more structured and proactive approach to each unit. For future weeks, I will continue to use seminar recordings, summaries and practical examples to quickly capture the key technical ideas, while avoiding the habit of treating activities as “tick boxes”. I will keep building my GitHub e‑portfolio unit by unit, using the 3W reflection model to record what I learned, why it matters and how I will apply it.
+
+From a professional perspective, I want to deepen the link between the theory in this module and my projects in the telecom Automation CoE. For example, I can apply my understanding of CPU and system performance when thinking about optimisation in automation workflows, or use the discussions about AI ethics to review how we manage data privacy and bias in our AI‑driven processes. By doing this consistently across future units, I aim to develop stronger critical reflections, improve my contributions to collaborative discussions, and position myself for more senior, possibly managerial, roles in computing and AI.
+
+## What next? (Action)
+
