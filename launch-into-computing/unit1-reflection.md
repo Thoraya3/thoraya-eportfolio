@@ -12,8 +12,4 @@ The case study and discussion on AI‑powered assistants also made the connectio
 Balancing a demanding role at Ooredoo with postgraduate study is challenging, but completing Unit 1 showed me that I can still build a solid understanding if I use the learning resources strategically (slides, recordings, exercises) and relate them back to my real work environment.
 
 ## What next? (Action)
-Going forward, I plan to take a more structured and proactive approach to each unit. For future weeks, I will continue to use seminar recordings, summaries and practical examples to quickly capture the key technical ideas, while avoiding the habit of treating activities as “tick boxes”. I will keep building my GitHub e‑portfolio unit by unit, using the 3W reflection model to record what I learned, why it matters and how I will apply it.
-From a professional perspective, I want to deepen the link between the theory in this module and my projects in the telecom Automation CoE. For example, I can apply my understanding of CPU and system performance when thinking about optimisation in automation workflows, or use the discussions about AI ethics to review how we manage data privacy and bias in our AI‑driven processes. By doing this consistently across future units, I aim to develop stronger critical reflections, improve my contributions to collaborative discussions, and position myself for more senior, possibly managerial, roles in computing and AI.
-
-## What next? (Action)
 
