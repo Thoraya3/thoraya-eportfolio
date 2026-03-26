@@ -1,5 +1,4 @@
 # Launch into Computing – Unit 1 Reflection
-
 ## What? (Description)
 In Unit 1, I was introduced to the foundations of computing and how modern computer systems have evolved. The content covered key topics such as the definition of computing, the role of different computing disciplines (AI, cybersecurity, software engineering, data science, enterprise IT), and the history of computer architectures from early machines to modern microprocessors. The seminar materials and lecture explained concepts like CPU structure (ALU, control unit, registers, cache), the difference between Harvard and Von Neumann architectures, Flynn’s taxonomy (SISD, SIMD, MISD, MIMD), and performance features such as pipelines, superscalar execution, caching and hyperthreading.
 
@@ -10,6 +9,7 @@ This unit helped me connect low‑level computing concepts with the high‑level
 The case study and discussion on AI‑powered assistants also made the connection between theory and practice very clear. In my work within the Automation CoE, I see how AI and automation reduce manual effort and improve efficiency, but this unit emphasised that these solutions sit at the intersection of several computing disciplines: AI for decision‑making, software engineering for integration, data science and data engineering for data quality, and cybersecurity for protecting sensitive telecom information. It also reinforced the importance of legal, ethical and professional responsibilities, especially around privacy, fairness and the impact of automation on jobs.
 
 Balancing a demanding role at Ooredoo with postgraduate study is challenging, but completing Unit 1 showed me that I can still build a solid understanding if I use the learning resources strategically (slides, recordings, exercises) and relate them back to my real work environment.
-
 ## What next? (Action)
+Going forward, I plan to take a more structured and proactive approach to each unit. For future weeks, I will continue to use seminar recordings, summaries and practical examples to quickly capture the key technical ideas, while avoiding the habit of treating activities as “tick boxes”. I will keep building my GitHub e‑portfolio unit by unit, using the 3W reflection model to record what I learned, why it matters and how I will apply it.
 
+From a professional perspective, I want to deepen the link between the theory in this module and my projects in the telecom Automation CoE. For example, I can apply my understanding of CPU and system performance when thinking about optimisation in automation workflows, or use the discussions about AI ethics to review how we manage data privacy and bias in our AI‑driven processes. By doing this consistently across future units, I aim to develop stronger critical reflections, improve my contributions to collaborative discussions, and position myself for more senior, possibly managerial, roles in computing and AI.
