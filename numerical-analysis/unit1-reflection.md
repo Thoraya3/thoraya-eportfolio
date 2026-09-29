@@ -45,3 +45,13 @@ The introductory seminar provided an overview of the Numerical Analysis module, 
 One of the most valuable aspects of Unit 1 was recognising the importance of understanding data before attempting analysis. The unit demonstrated that effective statistical analysis depends not only on calculations but also on selecting appropriate methods based on data structure and measurement levels.
 
 The introduction to R provided a practical foundation that I expect to build upon throughout the module. The knowledge gained in this unit established the groundwork for later topics such as probability distributions, confidence intervals, hypothesis testing, parametric tests, and statistical modelling. It also reinforced the connection between statistical reasoning and real-world decision making in both Artificial Intelligence and enterprise environments.
+
+## 4. References
+ 
+Field, A., Miles, J. and Field, Z. (2012) Discovering Statistics Using R. London: Sage Publications.
+ 
+Pallant, J. (2020) SPSS Survival Manual: A Step by Step Guide to Data Analysis Using IBM SPSS. 7th edn. London: McGraw-Hill Education.
+ 
+R Core Team (2025) R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing. Available at: https://www.r-project.org/ (Accessed: 29 September 2026).
+ 
+University of Essex Online (2026) Numerical Analysis: Unit 1 – Types and Sources of Data and an Introduction to R. MSc Artificial Intelligence Module Materials.
