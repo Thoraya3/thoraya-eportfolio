@@ -12,7 +12,7 @@ As part of the learning activities, I reviewed the lecturecast, completed the re
 
 This unit demonstrated that data structures are fundamental to any form of data analysis. Before statistical techniques can be applied, the data must be organised correctly and stored in appropriate structures. Understanding vectors, matrices, and data frames provided insight into how analytical software stores and processes information behind the scenes.
 
-As a Senior Application Programmer working in telecommunications, I regularly work with large volumes of operational and transactional data. The concepts covered in this unit helped me appreciate the importance of data organisation when developing reports, analysing service information, and building automation solutions. Many of the structures discussed in R have similarities with the collections, arrays, tables, and datasets used within enterprise systems and databases.
+As a Senior Application Programmer working in the telecommunications industry, I regularly work with large volumes of operational and transactional data. The concepts covered in this unit helped me appreciate the importance of data organisation when developing reports, analysing service information, and building automation solutions. Many of the structures discussed in R have similarities with the collections, arrays, tables, and datasets used within enterprise systems and databases.
 
 The introduction to vectors and matrices was particularly valuable because these structures form the mathematical foundation for many Artificial Intelligence and Machine Learning algorithms. Understanding how mathematical operations are performed on structured data will help me as I progress to more advanced topics such as probability, hypothesis testing, statistical modelling, and AI algorithms.
 
@@ -28,33 +28,23 @@ As I progress through the module, I will continue documenting my learning within
 
 ## Unit 2 Artefacts (My Submitted Work)
 
-### 1. Activities Completed
+### 1. Data Activity – COVID-19 India Dataset
 
-- Reviewed Unit 2 lecturecast and reading materials.
-- Learned about vectors, matrices, and data frames in R.
-- Practised creating and manipulating data structures.
-- Performed arithmetic operations using R operators.
-- Explored data frame operations and data organisation techniques.
-- Completed the Unit 2 Data Activity.
-- Reviewed Khan Academy mathematical resources to support numerical analysis skills.
-- Participated in seminar preparation activities.
+As part of Unit 2, I completed the COVID-19 India Dataset activity to explore how data structures and frequency analysis can be performed in R. The activity focused on creating and analysing a binary recovery indicator using COVID-19 reporting data from January 2020 to March 2020.
 
-### 2. Seminar Notes
+The activity required me to:
 
-The seminar focused on understanding descriptive statistics and their role in data analysis. The session reinforced how data can be organised, summarised, and interpreted using different statistical measures. It also highlighted the relationship between data structures and effective statistical analysis.
+- Create a frequency table showing the number of daily reports that included recoveries and those that reported no recoveries.
+- Calculate percentages to determine the proportion of reports containing recovery cases.
+- Create a binary variable called `has_recovery` indicating whether any cured cases were reported.
+- Apply frequency analysis techniques using R functions.
+- Explore how data frames can be manipulated and summarised within R.
 
-### 3. Reflection
+Example R commands used:
 
-One of the most useful lessons from Unit 2 was recognising that successful analysis depends heavily on how data is structured and managed. The unit demonstrated that statistical software relies on well-organised data structures to perform calculations accurately and efficiently.
+```r
+has_recovery <- ifelse(Cured > 0, 1, 0)
 
-The introduction to vectors and matrices also provided an important mathematical foundation that will support future topics within Numerical Analysis and Artificial Intelligence. Understanding these concepts early in the module has strengthened my confidence in working with both statistical software and analytical methods.
+table(has_recovery)
 
-## References
-
-Field, A., Miles, J. and Field, Z. (2012) Discovering Statistics Using R. London: Sage Publications.
-
-Pallant, J. (2020) SPSS Survival Manual: A Step by Step Guide to Data Analysis Using IBM SPSS. 7th edn. London: McGraw-Hill Education.
-
-R Core Team (2025) R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing. Available at: https://www.r-project.org/ (Accessed: 29 September 2026).
-
-University of Essex Online (2026) Numerical Analysis: Unit 2 – Data Structures in R. MSc Artificial Intelligence Module Materials.
+prop.table(table(has_recovery)) * 100
