@@ -2,56 +2,59 @@
 
 ## What? (Description)
 
-In Unit 1 of Numerical Analysis, I was introduced to the foundations of statistics, data analysis, and the R programming environment. The unit explored the importance of statistics in business, health, sports, law, and other disciplines, highlighting how data can be used to support or sometimes misrepresent conclusions if interpreted incorrectly.
+In Unit 1 of Numerical Analysis, I was introduced to the foundations of statistics, data analysis, and the R programming environment. The unit explored the importance of statistics in business, healthcare, sports, law, and many other fields, highlighting how statistical evidence can support decision making but may also be misleading if data sources and methods are not carefully examined.
 
-The unit focused on understanding different types and sources of data, including qualitative and quantitative data, as well as the distinction between descriptive and inferential statistics. I learned about the four common levels of measurement: nominal, ordinal, interval, and ratio scales, and how the choice of measurement scale influences the type of statistical analysis that can be performed.
+The unit focused on understanding different types and sources of data, the distinction between descriptive and inferential statistics, and the importance of evaluating how data is collected and interpreted. I learned about the four levels of measurement commonly used in statistics: nominal, ordinal, interval, and ratio scales. The unit also introduced data manipulation, calculation, and graphical display within R.
 
-The practical component introduced R and RStudio, including different interfaces, packages, importing and saving datasets, and basic data manipulation. I reviewed the lecturecasts, completed the reading materials, explored RStudio, and worked through the COVID-19 India dataset activities. The Introductory Seminar also provided an overview of the module structure, assessments, and expectations for the Numerical Analysis module.
+A practical component of the unit involved learning to use R and RStudio, including installing the software, understanding the interface, importing and saving datasets, and performing initial data exploration. I also worked with a real-world COVID-19 India Cases dataset, which provided practical experience in loading data, examining dataset structures, identifying variable types, and understanding how statistical datasets are organised.
+
+In addition to the lecturecasts and reading materials, I completed the required activities, explored the Module Wiki, participated in seminar preparation, and began building the Numerical Analysis section of my GitHub e-portfolio.
 
 ## So What? (Interpretation)
 
-This unit highlighted the importance of understanding where data originates and how it should be classified before any analysis is performed. I realised that statistical results are only meaningful when the underlying data is reliable and the appropriate methods are applied. This reinforced the need to critically evaluate numerical information rather than accepting statistical claims at face value.
+This unit reinforced the idea that effective analysis begins long before calculations are performed. Understanding where data originates, how it is collected, and how variables are measured is essential for producing reliable conclusions. The unit demonstrated that statistics is not simply about formulas but about critically evaluating evidence and making informed decisions.
 
-As a Senior Application Programmer working in the telecommunications industry, I regularly work with transaction records, service provisioning data, automation logs, customer information, and operational reports. Understanding measurement scales and data structures is particularly important because selecting incorrect methods for analysis can lead to inaccurate conclusions and poor business decisions.
+As a Senior Application Programmer in the telecommunications industry, I frequently work with customer requests, operational reports, automation logs, and service performance data. Understanding data structures, data types, and measurement scales is highly relevant because it directly affects the quality of reporting and decision making. Incorrect interpretation of data can lead to flawed conclusions, inaccurate reporting, and poor operational outcomes.
 
-The introduction to R was also valuable because it provided a practical tool for analysing datasets and performing statistical operations. Although I have experience with programming and automation, using R for statistical analysis introduced a different perspective that is directly relevant to Artificial Intelligence and Data Science. The unit demonstrated how statistical thinking forms the foundation for more advanced topics such as probability, hypothesis testing, machine learning, and predictive analytics.
+The introduction to R and RStudio was particularly useful because it provided practical tools that are widely used within Data Science and Artificial Intelligence. The COVID-19 dataset activity demonstrated how raw data can be transformed into meaningful information through structured exploration and analysis. It also showed how statistical software can support evidence-based decision making using real-world datasets.
+
+The concepts introduced in this unit provide an important foundation for later topics such as probability, data structures, statistical distributions, confidence intervals, hypothesis testing, and machine learning. Understanding these fundamentals is critical for developing strong analytical skills and applying data-driven methods effectively.
 
 ## What Next? (Action)
 
-Going forward, I plan to continue developing my proficiency with R and RStudio by practising data manipulation and statistical analysis using real-world datasets. I also intend to strengthen my understanding of measurement scales and statistical concepts so that I can confidently select the most appropriate analytical methods for different types of data.
+Going forward, I plan to continue strengthening my skills in R and RStudio by practising dataset exploration, data manipulation, and statistical analysis using real-world data. I will focus on becoming more confident in identifying data structures, understanding measurement scales, and selecting appropriate analytical techniques.
 
-Within my professional role, I aim to apply these concepts when analysing operational and automation data, particularly when evaluating service performance, process efficiency, and business outcomes. As I progress through the module, I will continue building my GitHub e-portfolio, documenting both technical knowledge and its relevance to my work environment. This will help me develop stronger analytical skills while creating a professional record of my MSc learning journey.
+Within my professional role, I intend to apply these concepts when analysing telecom operational data, automation performance metrics, and business reporting datasets. Improving my understanding of data structures and statistical reasoning will help me make more informed decisions and support future work involving Artificial Intelligence and advanced analytics.
+
+As I progress through the Numerical Analysis module, I will continue documenting my learning within my GitHub e-portfolio and connect each topic to practical applications within enterprise software development, automation, and telecommunications.
 
 ## Unit 1 Artefacts (My Submitted Work)
 
-### 1. Activities Completed
+### 1. Data Activity – COVID-19 India Cases Dataset
 
-- Reviewed Unit 1 lecturecasts and reading materials.
-- Explored the role of statistics and data analysis in decision making.
-- Studied different types and sources of data.
-- Learned the differences between descriptive and inferential statistics.
-- Examined nominal, ordinal, interval, and ratio measurement scales.
-- Installed and explored R and RStudio.
-- Reviewed importing and saving datasets in R.
-- Completed the COVID-19 India Dataset activity.
-- Participated in the introductory seminar.
+As part of Unit 1, I worked with the COVID-19 India Cases dataset covering the period from January 2020 to March 2020. The objective of the activity was to gain practical experience in loading and exploring a real-world dataset using R and RStudio.
 
-### 2. Seminar Notes
+The activity involved:
 
-The introductory seminar provided an overview of the Numerical Analysis module, assessment structure, learning expectations, and the role of statistics in data-driven decision making. The session reinforced the importance of understanding data types, measurement scales, and the practical use of R for statistical analysis.
+- Downloading and saving the dataset in the R working directory.
+- Importing the dataset into RStudio.
+- Conducting an initial exploration of the dataset structure.
+- Identifying the total number of variables and observations.
+- Reviewing variable names and data types.
+- Determining how many variables were numeric, character, and date types.
+- Investigating the number of unique states and union territories represented.
+- Identifying the reporting date range.
+- Determining which state appeared most frequently in the dataset.
 
-### 3. Reflection
+Example R commands used:
 
-One of the most valuable aspects of Unit 1 was recognising the importance of understanding data before attempting analysis. The unit demonstrated that effective statistical analysis depends not only on calculations but also on selecting appropriate methods based on data structure and measurement levels.
+```r
+str(covid_data)
 
-The introduction to R provided a practical foundation that I expect to build upon throughout the module. The knowledge gained in this unit established the groundwork for later topics such as probability distributions, confidence intervals, hypothesis testing, parametric tests, and statistical modelling. It also reinforced the connection between statistical reasoning and real-world decision making in both Artificial Intelligence and enterprise environments.
+nrow(covid_data)
 
-## 4. References
- 
-Field, A., Miles, J. and Field, Z. (2012) Discovering Statistics Using R. London: Sage Publications.
- 
-Pallant, J. (2020) SPSS Survival Manual: A Step by Step Guide to Data Analysis Using IBM SPSS. 7th edn. London: McGraw-Hill Education.
- 
-R Core Team (2025) R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing. Available at: https://www.r-project.org/ (Accessed: 29 September 2026).
- 
-University of Essex Online (2026) Numerical Analysis: Unit 1 – Types and Sources of Data and an Introduction to R. MSc Artificial Intelligence Module Materials.
+ncol(covid_data)
+
+names(covid_data)
+
+summary(covid_data)
