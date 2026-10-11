@@ -1,47 +1,197 @@
-# Numerical Analysis – Unit 9 Reflection
+---
 
 <br>
 
-## What? (Description)
-
-In Unit 9 of Numerical Analysis, I studied cross-tabulations, contingency tables, and Chi-Square analysis using R. The unit focused on understanding relationships between categorical variables and how statistical methods can be used to identify associations between variables within a dataset.
-
-The lecture materials introduced contingency tables and cross-tabulations as tools for presenting categorical data. I learned how to calculate frequency distributions, row percentages, and column percentages, and how these can be used to explore relationships between variables.
-
-The unit also introduced the Chi-Square Test of Independence, which is used to determine whether a statistically significant association exists between two categorical variables. In addition, I learned how to create subsamples in R and apply Chi-Square analysis to different datasets.
-
-As part of the practical activities, I completed Data Activity 7 using the COVID-19 India Dataset and participated in Collaborative Discussion 2 on the misinterpretation of statistical information.
+## Data Activity 7 – COVID-19 India Dataset
 
 <br>
 
-## So What? (Interpretation)
-
-This unit helped me understand how relationships between categorical variables can be analysed statistically. While previous units focused mainly on numerical data and hypothesis testing involving means, Unit 9 expanded my understanding of categorical data analysis.
-
-The Chi-Square Test provided a practical method for evaluating whether observed patterns within contingency tables are likely to represent genuine relationships or are simply due to random variation. I also learned that statistical association does not imply causation and that contextual interpretation is essential when analysing results.
-
-The collaborative discussion highlighted the limitations of relying solely on p-values when interpreting statistical findings. I learned that confidence intervals, effect sizes, data quality, and study design should also be considered when evaluating evidence and making decisions.
-
-As a Senior Application Programmer working in telecommunications, I regularly work with categorical information such as service classifications, incident categories, customer segments, and automation statuses. The techniques learned during this unit will help me analyse relationships between such categories and support evidence-based operational decision-making.
+As part of Unit 9, I completed Data Activity 7 using the COVID-19 India Dataset (January 2020 – March 2020). The purpose of the activity was to create cross-tabulations and examine relationships between categorical variables using contingency tables.
 
 <br>
 
-## What Next? (Action)
-
-Going forward, I plan to continue practising categorical data analysis using contingency tables and Chi-Square tests in R. I will focus on improving my ability to select appropriate statistical methods based on the nature of the data and to interpret results accurately.
-
-Within my professional role, I intend to apply these techniques when analysing incident trends, customer classifications, automation outcomes, and service-management data. This will improve my ability to identify patterns and support data-driven decision-making.
-
-As I continue through the MSc Artificial Intelligence programme, I will further develop my statistical analysis skills and continue documenting my learning within my GitHub e-portfolio.
+### Task 1: Region and Case Severity Level
 
 <br>
 
-## Reflection
+The first activity involved grouping the State/Union Territory variable into geographical regions and combining the Confirmed Indian National and Confirmed Foreign National variables into Case Severity Levels.
 
-One of the most valuable lessons from Unit 9 was understanding how statistical relationships can be examined using categorical data. Cross-tabulations and contingency tables provided practical tools for organising and interpreting data, while Chi-Square analysis offered a method for evaluating statistical associations.
+<br>
 
-The COVID-19 India Dataset activity provided useful practical experience in creating cross-tabulations and interpreting categorical relationships. It demonstrated how real-world datasets can be analysed using statistical techniques to identify patterns and support decision-making.
+A cross-tabulation was then created to investigate the relationship between:
 
-The collaborative discussion strengthened my understanding of p-values, confidence intervals, and the importance of avoiding oversimplified interpretations of statistical findings. It reinforced the need to evaluate evidence critically rather than relying solely on significance levels.
+- Region
+- Case Severity Level
 
-Overall, Unit 9 strengthened my understanding of categorical data analysis, Chi-Square testing, statistical interpretation, and evidence-based decision-making. These skills are directly relevant to Artificial Intelligence, Data Science, and my professional role within the telecommunications industry.
+<br>
+
+This activity demonstrated how categorical variables can be organised into meaningful groups and analysed using contingency tables. The resulting cross-tabulation helped identify patterns in COVID-19 case distributions across different regions.
+
+<br>
+
+### Task 2: Case Severity Level and Recovery Status
+
+<br>
+
+The second activity involved creating a cross-tabulation between:
+
+- Case Severity Level
+- Recovery Status
+
+<br>
+
+The Cured variable was grouped into recovery categories to investigate whether recovery outcomes differed across different levels of confirmed cases.
+
+<br>
+
+This analysis provided practical experience in evaluating relationships between categorical variables and interpreting frequency distributions using contingency tables.
+
+<br>
+
+### Learning from the Data Activity
+
+<br>
+
+The activity improved my understanding of:
+
+- Cross-tabulations
+- Contingency tables
+- Frequency distributions
+- Categorical data analysis
+- Chi-Square analysis
+- Statistical interpretation
+
+<br>
+
+It reinforced the importance of selecting appropriate statistical techniques for categorical data and interpreting relationships carefully before drawing conclusions.
+
+<br>
+
+---
+
+<br>
+
+## Collaborative Discussion 2 – Misinterpretation of Statistical Information
+
+<br>
+
+This discussion focused on common misconceptions related to confidence intervals and p-values in statistical reporting and decision-making.
+
+<br>
+
+The discussion was based on the work of Greenland et al. (2016) and Tijssen (2021) and explored the following questions:
+
+<br>
+
+1. Under what situations should confidence intervals not be reported?
+2. Why is a p-value not always enough to report?
+
+<br>
+
+### Initial Post
+
+<br>
+
+In my initial discussion contribution, I explored the limitations of confidence intervals and p-values. I highlighted that confidence intervals depend upon assumptions regarding data collection, sampling procedures, and statistical models.
+
+<br>
+
+I argued that confidence intervals may become misleading when these assumptions are violated or when study design and data quality issues have not been properly addressed.
+
+<br>
+
+I also discussed how p-values alone do not provide information about effect size, clinical importance, practical significance, or the quality of the study. Statistical significance should therefore be interpreted alongside confidence intervals, effect sizes, study design, and contextual evidence.
+
+<br>
+
+### Peer Response 1
+
+<br>
+
+I responded to a peer who discussed the importance of considering assumptions when interpreting confidence intervals.
+
+<br>
+
+I agreed that confidence intervals should not be interpreted without understanding the underlying statistical model and highlighted the need to report effect sizes and confidence intervals alongside p-values.
+
+<br>
+
+The discussion reinforced the fact that statistical significance alone is often insufficient for meaningful decision-making.
+
+<br>
+
+### Peer Response 2
+
+<br>
+
+I responded to a peer who discussed the limitations of the traditional 0.05 significance threshold and the risk of p-hacking and selective reporting.
+
+<br>
+
+I agreed that relying solely on significance thresholds can oversimplify statistical interpretation and highlighted the importance of confidence intervals, effect sizes, and study quality when evaluating research findings.
+
+<br>
+
+### Key Learning Points
+
+<br>
+
+Through the discussion, I learned that:
+
+- Confidence intervals depend on model assumptions and study design.
+- P-values should not be interpreted in isolation.
+- Statistical significance does not necessarily imply practical significance.
+- Effect size is an important component of statistical reporting.
+- Critical evaluation is essential when interpreting statistical findings.
+
+<br>
+
+The discussion improved my ability to critically appraise statistical evidence and strengthened my understanding of responsible statistical reporting.
+
+<br>
+
+---
+
+<br>
+
+## Activities Completed
+
+<br>
+
+- Reviewed Unit 9 lecture materials and supporting readings.
+- Studied contingency tables and cross-tabulations.
+- Practised row and column percentage calculations.
+- Learned the principles of Chi-Square analysis.
+- Explored relationships between categorical variables.
+- Completed Data Activity 7 using the COVID-19 India Dataset.
+- Participated in Collaborative Discussion 2.
+- Completed an Initial Post.
+- Completed Peer Response 1.
+- Completed Peer Response 2.
+- Studied confidence interval interpretation.
+- Examined common p-value misinterpretations.
+- Documented learning activities within my GitHub e-portfolio.
+
+<br>
+
+---
+
+<br>
+
+## Additional References
+
+<br>
+
+Greenland, S. et al. (2016) ‘Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations’, *European Journal of Epidemiology*, 31(4), pp. 337–350.
+
+<br>
+
+Tijssen, J.G.P. (2021) ‘More confidence intervals and fewer p values: A positive trend?’, *Journal of the American College of Cardiology*, 77(12), pp. 1562–1563.
+
+<br>
+
+Office for National Statistics (2020) *Crime Survey for England and Wales, 2013–2014*. 3rd edn. UK Data Service.
+
+<br>
+
+Li, Q. (2018) *Using R for Data Analysis in Social Sciences: A Research Project-Oriented Approach*. Oxford: Oxford University Press.
